@@ -19,7 +19,7 @@ class NotificationService {
 
     // 1. 안드로이드 설정
     const AndroidInitializationSettings initializationSettingsAndroid =
-        AndroidInitializationSettings('@mipmap/ic_launcher');
+    AndroidInitializationSettings('@mipmap/launcher_icon');
 
     // 2. ⭐️ iOS 설정 추가 (기존 코드에서 누락된 부분)
     const DarwinInitializationSettings initializationSettingsDarwin =
